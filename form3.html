@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Registration</h1>
+    <br>
+    <form>
+        
+        <label for="name">Name : </label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Enter name here....">
+        <br> 
+
+        <label for="mail">Email : </label>
+        <br>
+        <input type="email" id="mail" name="mail" pattern=".+@gmail\.com" placeholder="abc@something.com">
+        <br>
+         
+        <label for="telephone">Telephone : </label>
+        <br>
+        <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+        <br>
+         
+        <label for="dropdown">Occupation : </label>
+        <br>
+        <select name="dropdown" id="dropdown">
+            <option value="other">Other</option>
+            <option value="teacher">Teacher</option>
+            <option value="engineer">Engineer</option>
+            <option value="doctor">Doctor</option>
+        </select>
+        <br>
+
+        <h4>Topics Of Interest : </h6>
+        <br>
+        <br>
+        <label for="checkbox1">Html : </label>
+        <br>
+        <input type="checkbox" id="checkbox1" name="Html">
+        <br>
+
+        <label for="checkbox2">CSS : </label>
+        <br>
+        <input type="checkbox" id="checkbox1" name="CSS">
+        <br>
+
+        <label for="checkbox3">JavaScript : </label>
+        <br>
+        <input type="checkbox" id="checkbox3" name="Javascript">
+        <br>
+
+        <label for="text1">Comments : </label>
+        <br>
+        <textarea name="text1" id="text1" cols="18" rows="10" placeholder="Enter Comments here...."></textarea>
+        <button>register</button>
+
+    </form>
+</body>
+</html>

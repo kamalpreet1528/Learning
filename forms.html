@@ -1,0 +1,60 @@
+<!-- value of for attribute in label should be same as value of id attribute in form tag -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="username">Enter Username</label>
+        <input type="text" id="username">
+        <!-- by default value of type attribute is text -->
+
+        <!-- this is not good way of giving next line in forms -->
+        <!-- we will learn better way also -->
+        <br>
+        <br>
+
+        <label for="password">Enter Password</label>
+        <input type="text" id="password">
+
+        <br>
+        <br>
+
+        <input type="submit" value="Submit">
+        <!-- there are other ways of creating buttons -->
+        <!-- one more way is as following -->
+        <button>Click here</button>
+
+
+        <br>
+        <br>
+        <!-- difference between plaaceholder and value tag in input -->
+        <label for="username">Enter Username</label>
+        <input type="text" id="username" value="value">
+
+        <br>
+        <br>
+
+        <label for="username">Enter Username</label>
+        <input type="text" id="username" placeholder="placeholder">
+
+        <!-- 
+            differnet types of tags in form element are
+          
+         <input> - for input - types are text(default), radio(single select), date(calendar), checkbox(multiselect)
+         <label>   </label> - to write labels for input
+         <button>   </button> - to create buttons
+         <select>   </select> - to create dropdown menu
+         <option>   </option> - to create option for dropdown menu
+         <textarea>     </textarea> - to create a text area
+         <fieldset>     </fieldset> - used to group a lot of tags like a field set of radio buttons
+         <legend>   </legend> - used to give properties to fieldset like caption
+           
+         -->
+    </form>
+</body>
+</html>
